@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  /* width: 100%; */
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  background: #006d77;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+.navbar ul li {
+  transition: all ease 0.5s;
+}
+.navbar ul li:hover {
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
